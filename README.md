@@ -23,5 +23,5 @@ This project assumes your operating system is Microsoft Windows, though it would
 <ol>
 <li> You will have to modify the <code>host/run.bat</code> to reference your virtual environment. You will also have to modify <code>host/com.google.chrome.qtnative.echo-win.json</code> and enter the absolute path to the <code>run.bat</code> batch script.</li>
 <li> Execute <code>host/install.bat</code> to install the necessary registry keys.</li>
-<li> In Google Chome, go to <code>chrome://extensions/</code>, click on the <code>Load unpacked</code> button, and select the QTNative <code>extension</code> folder in the dialog.</li>
+<li> In Google Chome, go to <code>chrome://extensions/</code>, click on the <code>Load unpacked</code> button and select the QTNative <code>extension</code> folder in the dialog.</li>
 </ol>
