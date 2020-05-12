@@ -17,7 +17,7 @@ QTNative is a simple, native Python application which acts as a host for communi
   <li><a href="https://pypi.org/project/PyQt5/" rel="nofollow">PyQt5==5.14.2</a></li>
 </ul>
 
-This project assumes your operating system is Microsoft Windows, though it wouldn't be too difficult to get it working on MAC OS/Linux. The previously mentioned Chromium Native Messaging API example project is operating system agnostic - if you're interested in porting this to another operating system, that's where I would start looking. None of the Python code would require any changes, it would really just be the batch scripts and JSON/Manifest files. "virtualenvwrapper-win" isn't strictly required, but it's how I've chosen to organize the project. Any virtual environment manager will do.
+This project assumes your operating system is Microsoft Windows, though it wouldn't be too difficult to get it working on MAC OS/Linux. The previously mentioned Chromium Native Messaging API example project is operating system agnostic - if you're interested in porting this to another operating system, that's where I would start looking. None of the Python code would require any changes, it would really just be the batch scripts and JSON/Manifest files. <b>virtualenvwrapper-win</b> isn't strictly required, but it's how I've chosen to organize the project. Any virtual environment manager will do.
 
 <h1>Setup</h1>
-You will have to modify the "host/run.bat" to reference your virtual environment. You will also have to modify "host/com.google.chrome.qtnative.echo-win.json" and enter the absolute path to the "run.bat".
+You will have to modify the <b>host/run.bat</b> to reference your virtual environment. You will also have to modify <b>host/com.google.chrome.qtnative.echo-win.json</b> and enter the absolute path to the <b>run.bat</b> batch script.
