@@ -22,4 +22,4 @@ This project assumes your operating system is Microsoft Windows, though it would
 <h1>Setup</h1>
 - You will have to modify the <code>host/run.bat</code> to reference your virtual environment. You will also have to modify <code>host/com.google.chrome.qtnative.echo-win.json</code> and enter the absolute path to the <code>run.bat</code> batch script.
 - Execute <code>host/install.bat</code> to install the necessary registry keys.
-- In Google Chome, go to [chrome://extensions/](chrome://extensions/)
+- In Google Chome, go to chrome://extensions/
