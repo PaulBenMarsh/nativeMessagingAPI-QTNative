@@ -20,6 +20,6 @@ QTNative is a simple, native Python application which acts as a host for communi
 This project assumes your operating system is Microsoft Windows, though it wouldn't be too difficult to get it working on MAC OS/Linux. The previously mentioned Chromium Native Messaging API example project is operating system agnostic - if you're interested in porting this to another operating system, that's where I would start looking. None of the Python code would require any changes, it would really just be the batch scripts and JSON/Manifest files. <code>virtualenvwrapper-win</code> isn't strictly required, but it's how I've chosen to organize the project. Any virtual environment manager will do.
 
 <h1>Setup</h1>
-- You will have to modify the <code>host/run.bat</code> to reference your virtual environment. You will also have to modify <code>host/com.google.chrome.qtnative.echo-win.json</code> and enter the absolute path to the <code>run.bat</code> batch script.
-- Execute <code>host/install.bat</code> to install the necessary registry keys.
-- In Google Chome, go to <code>chrome://extensions/</code>, click on the <code>Load unpacked</code> button, and select the QTNative <code>extension</code> folder in the dialog.
+1. You will have to modify the <code>host/run.bat</code> to reference your virtual environment. You will also have to modify <code>host/com.google.chrome.qtnative.echo-win.json</code> and enter the absolute path to the <code>run.bat</code> batch script.
+2. Execute <code>host/install.bat</code> to install the necessary registry keys.
+3. In Google Chome, go to <code>chrome://extensions/</code>, click on the <code>Load unpacked</code> button, and select the QTNative <code>extension</code> folder in the dialog.
