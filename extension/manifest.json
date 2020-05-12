@@ -1,0 +1,17 @@
+{
+  // Extension ID: dflmnkljlcjhgpnbjkdobnapmcmhkhil
+  "name": "QTNative",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Send/Receive messages to/from a native QT application.",
+  "browser_action": {
+	"default_popup": "main.html",
+	"default_icon": "resources/icon.png"
+	},
+  "icons": {
+    "128": "resources/icon.png"
+  },
+  "permissions": [
+    "nativeMessaging"
+  ]
+}
