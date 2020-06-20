@@ -4,7 +4,9 @@
 
 QTNative is a simple, native Python application which acts as a host for communicating with a corresponding Google Chrome extension using the Native Messaging API. QTNative is inspired by the [Chromium Native Messaging API example project](https://chromium.googlesource.com/chromium/src/+/master/chrome/common/extensions/docs/examples/api/nativeMessaging). All of the code has been redone.
 
-![](https://github.com/PaulBenMarsh/nativeMessagingAPI-QTNative/blob/master/screenshots/qtnative_screenshot.png?raw=true)
+<p align="center">
+<img src="https://github.com/PaulBenMarsh/nativeMessagingAPI-QTNative/blob/master/screenshots/qtnative_screenshot.png?raw=true">
+</p>
 
 <h1>Native Messaging API</h1>
 
