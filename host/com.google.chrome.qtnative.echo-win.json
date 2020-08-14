@@ -8,6 +8,6 @@
   "path": "C:/Users/your_user_name/Desktop/qtnative/host/run.bat",
   "type": "stdio",
   "allowed_origins": [
-    "chrome-extension://dflmnkljlcjhgpnbjkdobnapmcmhkhil/"
+    "chrome-extension://<YOUR CHROME-EXTENSION ID GOES HERE>/"
   ]
 }
